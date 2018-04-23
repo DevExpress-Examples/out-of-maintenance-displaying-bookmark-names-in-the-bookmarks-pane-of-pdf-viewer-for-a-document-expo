@@ -1,0 +1,8 @@
+# Displaying bookmark names in the Bookmarks pane of PDF Viewer for a document exported to PDF
+
+
+This example demonstrates how to create a service that implements the <strong>DevExpress.XtraRichEdit.Services.ILinkUpdater</strong> interface to change titles used to display document bookmarks in the <strong>Bookmarks</strong> pane of PDF Viewer after a document is exported to PDF.  <br>By default, when the <a href="https://documentation.devexpress.com/#CoreLibraries/DevExpressXtraRichEditBookmarkOptions_DisplayBookmarksInPdfNavigationPanetopic">BookmarkOptions.DisplayBookmarksInPdfNavigationPane</a> property is set to <em>All</em> or <em>TocBookmarks</em>, the <strong>Bookmarks</strong> pane displays not a name of a bookmark but the first 512 symbols of text to which the bookmark is assigned. To change this default behavior and display bookmark names in the <strong>Bookmarks</strong> pane, implement the <strong>ResolveBookmarkTitle</strong> method of the <strong>ILinkUpdater</strong> interface.<br><img src="https://raw.githubusercontent.com/DevExpress-Examples/displaying-bookmark-names-in-the-bookmarks-pane-of-pdf-viewer-for-a-document-exported-to-p-t420469/16.1.4+/media/76a10bc3-6def-11e6-80bf-00155d62480c.png">
+
+<br/>
+
+
