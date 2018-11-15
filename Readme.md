@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [BookmarkTitleUpdater.cs](./CS/BookmarkTitleUpdater/BookmarkTitleUpdater.cs) (VB: [BookmarkTitleUpdater.vb](./VB/BookmarkTitleUpdater/BookmarkTitleUpdater.vb))
+* [Form1.cs](./CS/BookmarkTitleUpdater/Form1.cs) (VB: [Form1.vb](./VB/BookmarkTitleUpdater/Form1.vb))
+<!-- default file list end -->
 # Displaying bookmark names in the Bookmarks pane of PDF Viewer for a document exported to PDF
 
 
